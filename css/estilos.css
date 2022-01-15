@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+#contacto, #inicio{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#contacto, #proyectos p{
+    color: #212529;
+}
+#sobre-mi, #proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h3{
+    font-size: 16px;
+    background-color: #E20000;
+    color: white;
+}
+#proyectos .proyecto p{
+    font-size: 14px;
+    height: 100px;
+}
+nav .active{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+nav .nav-link{
+    color: #282828;
+    border-radius: 16px;
+}
+nav .fa-bars{
+    color: #E20000;
+}
+nav .navbar-toggler{
+    border: 1px solid #E20000;
+}
+.cv{
+    border-radius: 20px;
+    background-color: #E20000;
+    width: 170px; 
+    text-align: center;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    color: white;
+    font-size: 16px;
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
+}
+.btn-rojo:hover{
+    color: #370a6d;
+}
+.btn-blanco{
+    color: #370a6d;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.btn-blanco:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.btn-link{
+    color: #E20000;
+    text-decoration: none;
+}
+.btn-link:hover{
+    color: #370a6d;
+}
+header{
+    display: block;
+}
+.form-control{
+    border-radius: 16px;
+}
+textarea{
+    height: 150px;
+}
+#contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+    color: white;
+}
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+    color: #E20000;
+}
+#contacto footer a:hover, #inicio footer a:hover{
+    color: #370a6d;
+}
+#proyectos footer a:hover, #sobre-mi footer a:hover{
+    color: #370a6d;
+}
+footer{
+    position: static;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#proyectos .fa-github, #sobre-mi .fa-github{
+    color: red;
+}
+footer .fa-linkedin-in{
+    font-size: 24px;
+    color: red;
+    background-color: white;
+    border: 0px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp{
+    font-size: 30px;
+    color: white
+}
+.bloque-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.div-cohete img{
+    width: 350px;
+}
+.div-cohete img:hover{
+    width: 370px;
+    display:inline-block;
+    background-image: url('../images/icon-home-2.png');
+    background-size: 100%;
+}
+#inicio .div-cohete{
+    height: 400px;
+}
+.input-home{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0px 0px;
+}
+@media (max-width: 750px) {
+
+    #contacto, #inicio{
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    #contacto .fa-github,  #inicio .fa-github{
+        color: red;
+    }
+    #contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+        color: red
+    }
+    .bloque-whatsapp{
+        bottom: 0px;
+        right: 15px;
+        background-color: #370a6d;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .input-home p{
+        text-align: center;
+        color: #E20000;
+        border: 1px solid red;
+        border-radius: 20px;
+        padding-bottom: 12px;
+        width: auto;
+    }
+    .div-cohete img{
+        width: 250px;
+    }
+    .div-cohete img:hover{
+        width: 270px;
+        display:inline-block;
+        background-image: url('../images/icon-home-2.png');
+        background-size: 100%;
+    }
+    #inicio .div-cohete{
+        height: 300px;
+    }
+    .btn-blanco:hover{
+        color: white;
+        background-color: #370a6d;
+    }
+}
