@@ -12,7 +12,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#contacto, #proyectos p{
+#contacto, #proyectos, #sobre-mi p{
     color: #212529;
 }
 #sobre-mi, #proyectos{
@@ -48,6 +48,9 @@ nav .navbar-toggler{
     background-color: #E20000;
     width: 170px; 
     text-align: center;
+}
+.cv:hover{
+    background-color: #370a6d;
 }
 h1{
     color: #E20000;
@@ -155,8 +158,14 @@ footer .fa-whatsapp{
 .input-home{
     text-align: center;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 0px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+#stack-tecnologico{
+    background-color: rgba(184,37,20,1);
 }
 @media (max-width: 750px) {
 
