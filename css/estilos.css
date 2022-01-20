@@ -20,6 +20,20 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#inicio p{
+    color: white;
+    font-size: 16px;
+}
+.avatar{
+    border-radius: 50%; 
+    border: solid 10px; 
+    color: white; 
+    width: 270px;
+    height: 270px;
+}
+#sobre-mi h2{
+    color: #E20000;
+}
 #proyectos h3{
     font-size: 16px;
     background-color: #E20000;
@@ -28,6 +42,9 @@ body{
 #proyectos .proyecto p{
     font-size: 14px;
     height: 100px;
+}
+#proyectos img{
+    height: 200px;
 }
 nav .active{
     border: 1px solid red;
@@ -56,8 +73,11 @@ h1{
     color: #E20000;
     font-size: 36px;
 }
+h2 {
+    font-size: 24px
+}
 p{
-    color: white;
+    color: #212529;
     font-size: 16px;
 }
 .btn-rojo{
@@ -65,9 +85,11 @@ p{
     color: white;
     border: 0px;
     border-radius: 20px;
+    font-weight: 100;
 }
 .btn-rojo:hover{
-    color: #370a6d;
+    background-color: #370a6d;
+    color: white;
 }
 .btn-blanco{
     color: #370a6d;
@@ -75,6 +97,7 @@ p{
     border: none;
     cursor: pointer;
     border-radius: 16px;
+    text-decoration: none;
 }
 .btn-blanco:hover{
     color: white;
@@ -96,10 +119,10 @@ header{
 textarea{
     height: 150px;
 }
-#contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+#contacto footer, #contacto footer a{
     color: white;
 }
-#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a, #inicio footer, #inicio footer a{
     color: #E20000;
 }
 #contacto footer a:hover, #inicio footer a:hover{
@@ -112,12 +135,13 @@ footer{
     position: static;
     font-weight: 100;
 }
-footer .fa-github{
+#contacto footer .fa-github{
     font-size: 30px;
     color: white;
 }
-#proyectos .fa-github, #sobre-mi .fa-github{
+#proyectos .fa-github, #sobre-mi .fa-github, #inicio footer .fa-github{
     color: red;
+    font-size: 30px;
 }
 footer .fa-linkedin-in{
     font-size: 24px;
@@ -144,13 +168,10 @@ footer .fa-whatsapp{
     border-top-right-radius: 10px;
 }
 .div-cohete img{
-    width: 350px;
+    width: 260px;
 }
 .div-cohete img:hover{
-    width: 370px;
-    display:inline-block;
-    background-image: url('../images/icon-home-2.png');
-    background-size: 100%;
+    width: 270px;
 }
 #inicio .div-cohete{
     height: 400px;
@@ -167,16 +188,62 @@ footer .fa-whatsapp{
 #stack-tecnologico{
     background-color: rgba(184,37,20,1);
 }
+#idiomas-hobbies{
+    background-color: #eee;
+}
+#idiomas-hobbies h2{
+    color: #212529 !important;
+}
+.sepelios img{
+    width: 150px; 
+    height: 150px; 
+    align-items: center;
+}
+.proveeduria img{
+    width: 100px; 
+    height: 100px; 
+    margin-left: 20px;
+}
+.locutorio img{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+}
+.agencia img{
+    width: 120px; 
+    height: 120px; 
+    margin-left: 5px;
+}
+.sepelios h3, .proveeduria h3, .locutorio h3, .agencia h3, .formacion h3, .curso h3, .ingles h3{
+    color: #6A6A6A; 
+    font-size: 18px; 
+    font-weight: 600;
+}
+.sepelios h4, .proveeduria h4, .locutorio h4, .agencia h4{
+    color: #370a6d; 
+    font-size: 17px;
+}
+.sepelios h5, .proveeduria h5, .locutorio h5, .agencia h5, .formacion h5, .curso h5, .ingles h5{
+    color: #6A6A6A; 
+    font-size: 14px
+}
+.formacion h4, .curso h4, .ingles h4{
+    color: #E20000;
+    font-size: 17px;
+}
+.sepelios img:hover, .proveeduria img:hover, .locutorio img:hover, .agencia img:hover{
+    filter: sepia(25%);
+}
 @media (max-width: 750px) {
 
     #contacto, #inicio{
         background-image: url(../images/fondo-proyectos.png);
     }
-    #contacto .fa-github,  #inicio .fa-github{
+    #contacto .fa-github,  #inicio .fa-github, #sobre-mi .fa-github{
         color: red;
     }
     #contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
-        color: red
+        color: red;
     }
     .bloque-whatsapp{
         bottom: 0px;
@@ -187,7 +254,7 @@ footer .fa-whatsapp{
     }
     .input-home p{
         text-align: center;
-        color: #E20000;
+        color: #E20000 !important;
         border: 1px solid red;
         border-radius: 20px;
         padding-bottom: 12px;
