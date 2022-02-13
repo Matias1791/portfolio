@@ -7,12 +7,12 @@ body{
     color: #212529;
     background-color: #fff;
 }
-#contacto, #inicio{
+#contacto, #inicio, #confirmacion-envio{
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#contacto, #proyectos, #sobre-mi p{
+#contacto, #proyectos, #sobre-mi, #confirmacion-envio p{
     color: #212529;
 }
 #sobre-mi, #proyectos{
@@ -119,23 +119,23 @@ header{
 textarea{
     height: 150px;
 }
-#contacto footer, #contacto footer a{
+#contacto footer, #contacto footer a, #confirmacion-envio footer, #confirmacion-envio footer a{
     color: white;
 }
 #proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a, #inicio footer, #inicio footer a{
     color: #E20000;
 }
-#contacto footer a:hover, #inicio footer a:hover{
+#contacto footer a:hover, #inicio footer a:hover, #confirmacion-envio footer a:hover{
     color: #370a6d;
 }
 #proyectos footer a:hover, #sobre-mi footer a:hover{
     color: #370a6d;
 }
 footer{
-    position: static;
+    position: static!important;
     font-weight: 100;
 }
-#contacto footer .fa-github{
+#contacto footer .fa-github, #confirmacion-envio footer .fa-github{
     font-size: 30px;
     color: white;
 }
