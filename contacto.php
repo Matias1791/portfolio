@@ -2,27 +2,27 @@
 
 $pg = "contacto";
 
-if($_POST){
+if ($_POST) {
     $nombre = $_POST["txtNombre"];
     $correo = $_POST["txtCorreo"];
     $telefono = $_POST["txtTelefono"];
     $mensaje = $_POST["txtMensaje"];
 
-$para = "moscatachado@hotmail.com";
-$titulo = "Recibiste un mensaje desde tu Web";
-$cuerpo = "
+    $para = "moscatachado@hotmail.com";
+    $titulo = "Recibiste un mensaje desde tu Web";
+    $cuerpo = "
 Nombre: $nombre <br>
 Correo: $correo <br>
 Teléfono: $telefono <br>
 Mensaje: $mensaje
 ";
-$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$cabeceras .= 'To: moscatachado@hotmail.com' . "\r\n";
-$cabeceras .= 'From: contacto@matias.com.ar' . "\r\n";
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $cabeceras .= 'To: moscatachado@hotmail.com' . "\r\n";
+    $cabeceras .= 'From: contacto@matias.com.ar' . "\r\n";
 
-mail($para, $titulo, $cuerpo, $cabeceras);
-header("Location: confirmacion-envio.php");
+    mail($para, $titulo, $cuerpo, $cabeceras);
+    header("Location: confirmacion-envio.php");
 }
 
 ?>
@@ -39,9 +39,7 @@ header("Location: confirmacion-envio.php");
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -60,31 +58,26 @@ header("Location: confirmacion-envio.php");
             <div class="col-12 col-sm-6">
                 <form action="" method="post">
                     <div class="pb-3">
-                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre"
-                            class="form-control shadow">
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo"
-                            class="form-control shadow">
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp"
-                            class="form-control shadow">
+                        <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="Telefono/Whatsapp" class="form-control shadow">
                     </div>
                     <div class="pb-3">
-                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui el mensaje"
-                            class="form-control shadow"></textarea>
+                        <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aqui el mensaje" class="form-control shadow"></textarea>
                     </div>
                     <div class="pb-3 float-start">
-                        <button type="submit" name="btnEnviar" id="btnEnviar"
-                            class="btn btn-blanco px-4 py-2">ENVIAR</button>
+                        <button type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-blanco px-4 py-2">ENVIAR</button>
                     </div>
                 </form>
             </div>
         </div>
     </main>
 
-<?php include_once "footer.php"; ?>
+    <?php include_once "footer.php"; ?>
 
 </body>
 <script src="./css/bootstrap/js/bootstrap.bundle.min.js"></script>

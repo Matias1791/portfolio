@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     font-size: 1rem;
@@ -7,91 +7,118 @@ body{
     color: #212529;
     background-color: #fff;
 }
-#contacto, #inicio, #confirmacion-envio{
+
+#contacto,
+#inicio,
+#confirmacion-envio {
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#contacto, #proyectos, #sobre-mi, #confirmacion-envio p{
+
+#contacto,
+#proyectos,
+#sobre-mi,
+#confirmacion-envio p {
     color: #212529;
 }
-#sobre-mi, #proyectos{
+
+#sobre-mi,
+#proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#inicio p{
+
+#inicio p {
     color: white;
     font-size: 16px;
 }
-.avatar{
-    border-radius: 50%; 
-    border: solid 10px; 
-    color: white; 
+
+.avatar {
+    border-radius: 50%;
+    border: solid 10px;
+    color: white;
     width: 270px;
     height: 270px;
 }
-#sobre-mi h2{
+
+#sobre-mi h2 {
     color: #E20000;
 }
-#proyectos h3{
+
+#proyectos h3 {
     font-size: 16px;
     background-color: #E20000;
     color: white;
 }
-#proyectos .proyecto p{
+
+#proyectos .proyecto p {
     font-size: 14px;
     height: 100px;
 }
-#proyectos img{
+
+#proyectos img {
     height: 200px;
 }
-nav .active{
+
+nav .active {
     border: 1px solid red;
     border-radius: 20px;
 }
-nav .nav-link{
+
+nav .nav-link {
     color: #282828;
     border-radius: 16px;
 }
-nav .fa-bars{
+
+nav .fa-bars {
     color: #E20000;
 }
-nav .navbar-toggler{
+
+nav .navbar-toggler {
     border: 1px solid #E20000;
 }
-.cv{
+
+.cv {
     border-radius: 20px;
     background-color: #E20000;
-    width: 170px; 
+    width: 170px;
     text-align: center;
 }
-.cv:hover{
+
+.cv:hover {
     background-color: #370a6d;
 }
-h1{
+
+h1 {
     color: #E20000;
     font-size: 36px;
 }
+
 h2 {
     font-size: 24px
 }
-p{
+
+p {
     color: #212529;
     font-size: 16px;
 }
-.btn-rojo{
+
+.btn-rojo {
     background-color: #E20000;
     color: white;
     border: 0px;
     border-radius: 20px;
     font-weight: 100;
 }
-.btn-rojo:hover{
+
+.btn-rojo:hover {
     background-color: #370a6d;
     color: white;
 }
-.btn-blanco{
+
+.btn-blanco {
     color: #370a6d;
     background-color: white;
     border: none;
@@ -99,51 +126,79 @@ p{
     border-radius: 16px;
     text-decoration: none;
 }
-.btn-blanco:hover{
+
+.btn-blanco:hover {
     color: white;
     background-color: #370a6d;
 }
-.btn-link{
+
+.btn-link {
     color: #E20000;
     text-decoration: none;
 }
-.btn-link:hover{
+
+.btn-link:hover {
     color: #370a6d;
 }
-header{
+
+header {
     display: block;
 }
-.form-control{
+
+.form-control {
     border-radius: 16px;
 }
-textarea{
+
+textarea {
     height: 150px;
 }
-#contacto footer, #contacto footer a, #confirmacion-envio footer, #confirmacion-envio footer a{
+
+#contacto footer,
+#contacto footer a,
+#confirmacion-envio footer,
+#confirmacion-envio footer a {
     color: white;
 }
-#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a, #inicio footer, #inicio footer a{
+
+#proyectos footer,
+#proyectos footer a,
+#sobre-mi footer,
+#sobre-mi footer a,
+#inicio footer,
+#inicio footer a {
     color: #E20000;
 }
-#contacto footer a:hover, #inicio footer a:hover, #confirmacion-envio footer a:hover{
+
+#contacto footer a:hover,
+#inicio footer a:hover,
+#confirmacion-envio footer a:hover {
     color: #370a6d;
 }
-#proyectos footer a:hover, #sobre-mi footer a:hover{
+
+#proyectos footer a:hover,
+#sobre-mi footer a:hover {
     color: #370a6d;
 }
-footer{
-    position: static!important;
+
+footer {
+    position: static !important;
     font-weight: 100;
 }
-#contacto footer .fa-github, #confirmacion-envio footer .fa-github{
+
+#contacto footer .fa-github,
+#confirmacion-envio footer .fa-github {
     font-size: 30px;
     color: white;
 }
-#proyectos .fa-github, #sobre-mi .fa-github, #inicio footer .fa-github{
+
+#proyectos .fa-github,
+#sobre-mi .fa-github,
+#inicio footer .fa-github {
     color: red;
     font-size: 30px;
 }
-footer .fa-linkedin-in{
+
+footer .fa-linkedin-in {
     font-size: 24px;
     color: red;
     background-color: white;
@@ -155,11 +210,13 @@ footer .fa-linkedin-in{
     border-radius: 80px;
     margin: 0 8px;
 }
-footer .fa-whatsapp{
+
+footer .fa-whatsapp {
     font-size: 30px;
     color: white
 }
-.bloque-whatsapp{
+
+.bloque-whatsapp {
     position: fixed;
     bottom: 0px;
     right: 80px;
@@ -167,16 +224,20 @@ footer .fa-whatsapp{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.div-cohete img{
+
+.div-cohete img {
     width: 260px;
 }
-.div-cohete img:hover{
+
+.div-cohete img:hover {
     width: 270px;
 }
-#inicio .div-cohete{
+
+#inicio .div-cohete {
     height: 400px;
 }
-.input-home{
+
+.input-home {
     text-align: center;
     border: 1px solid white;
     border-radius: 50px;
@@ -185,77 +246,121 @@ footer .fa-whatsapp{
     font-weight: 600;
     margin-bottom: 0px !important;
 }
-#stack-tecnologico{
-    background-color: rgba(184,37,20,1);
+
+#stack-tecnologico {
+    background-color: rgba(184, 37, 20, 1);
 }
-#idiomas-hobbies{
+
+#idiomas-hobbies {
     background-color: #eee;
 }
-#idiomas-hobbies h2{
+
+#idiomas-hobbies h2 {
     color: #212529 !important;
 }
-.sepelios img{
-    width: 150px; 
-    height: 150px; 
+
+.sepelios img {
+    width: 150px;
+    height: 150px;
     align-items: center;
 }
-.proveeduria img{
-    width: 100px; 
-    height: 100px; 
+
+.proveeduria img {
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
 }
-.locutorio img{
+
+.locutorio img {
     width: 120px;
     height: 120px;
     margin-left: 10px;
 }
-.agencia img{
-    width: 120px; 
-    height: 120px; 
+
+.agencia img {
+    width: 120px;
+    height: 120px;
     margin-left: 5px;
 }
-.sepelios h3, .proveeduria h3, .locutorio h3, .agencia h3, .formacion h3, .curso h3, .ingles h3{
-    color: #6A6A6A; 
-    font-size: 18px; 
+
+.sepelios h3,
+.proveeduria h3,
+.locutorio h3,
+.agencia h3,
+.formacion h3,
+.curso h3,
+.ingles h3 {
+    color: #6A6A6A;
+    font-size: 18px;
     font-weight: 600;
 }
-.sepelios h4, .proveeduria h4, .locutorio h4, .agencia h4{
-    color: #370a6d; 
+
+.sepelios h4,
+.proveeduria h4,
+.locutorio h4,
+.agencia h4 {
+    color: #370a6d;
     font-size: 17px;
 }
-.sepelios h5, .proveeduria h5, .locutorio h5, .agencia h5, .formacion h5, .curso h5, .ingles h5{
-    color: #6A6A6A; 
+
+.sepelios h5,
+.proveeduria h5,
+.locutorio h5,
+.agencia h5,
+.formacion h5,
+.curso h5,
+.ingles h5 {
+    color: #6A6A6A;
     font-size: 14px
 }
-.formacion h4, .curso h4, .ingles h4{
+
+.formacion h4,
+.curso h4,
+.ingles h4 {
     color: #E20000;
     font-size: 17px;
 }
-.sepelios img:hover, .proveeduria img:hover, .locutorio img:hover, .agencia img:hover{
+
+.sepelios img:hover,
+.proveeduria img:hover,
+.locutorio img:hover,
+.agencia img:hover {
     filter: sepia(25%);
 }
+
 @media (max-width: 750px) {
 
-    #contacto, #inicio{
+    #contacto,
+    #inicio {
         background-image: url(../images/fondo-proyectos.png);
     }
-    #contacto .fa-github,  #inicio .fa-github, #sobre-mi .fa-github{
+
+    #contacto .fa-github,
+    #inicio .fa-github,
+    #sobre-mi .fa-github {
         color: red;
     }
-    #contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+
+    #contacto footer,
+    #contacto footer a,
+    #inicio footer,
+    #inicio footer a {
         color: red;
     }
-   .avatar{
-       width: auto;
+
+    .avatar {
+        width: auto;
     }
-    .bloque-whatsapp{
+
+    .bloque-whatsapp {
         bottom: 0px;
         right: 70px;
         background-color: #370a6d;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    .input-home p{
+
+    .input-home p {
         text-align: center;
         color: #E20000 !important;
         border: 1px solid red;
@@ -263,16 +368,20 @@ footer .fa-whatsapp{
         padding-bottom: 12px;
         width: auto;
     }
-    .div-cohete img{
+
+    .div-cohete img {
         width: 200px;
     }
-    .div-cohete img:hover{
+
+    .div-cohete img:hover {
         width: 210px;
     }
-    #inicio .div-cohete{
+
+    #inicio .div-cohete {
         height: 300px;
     }
-    .btn-blanco:hover{
+
+    .btn-blanco:hover {
         color: white;
         background-color: #370a6d;
     }
